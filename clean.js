@@ -767,8 +767,8 @@ const changeDescription = (curr_card) => {
                 way to pass the time, as she has been rarely
                 stimulated throughout her life and is beginning
                 to feel quite bored with the idea of immortality.
-                It would be the greatest privilege, to satisfy 
-                her.
+                It would be the greatest privilege for a puny
+                human to satisfy her carnal desires bahahaha
             `;
             // for a mere human to satisfy her carnal desires.
             break;
