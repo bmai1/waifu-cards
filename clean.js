@@ -695,7 +695,6 @@ const changeDescription = (curr_card) => {
                 is seemingly magical and above comprehension. 
                 It is a bond of pure emotion and passion rather 
                 than one of logic and reasoning;
-                
                 it is pure love that defines the human condition. 
             `;
             break;
@@ -722,22 +721,22 @@ const changeDescription = (curr_card) => {
                 a God of sorts, one that is equally as 
                 unpredicatable as she is breedable.
 
-                Additionally, she can transfrom into a 
-                lust-filled catgirl that will eagerly suck 
-                your cock and swallow your seed (lol). However, 
-                you would probably die as she also sucks out 
-                your life essence due to the immense stress 
-                that constantly plagues her mind. Underneath 
-                the facade of an insurmountable spirit lies 
-                a vulnerable high school girl, one that is 
-                severely burdened by aspiration and ambition. 
+                Additionally, she can also transfrom into a 
+                lust-filled catgirl that will eagerly tend to
+                all of your needs! However, you would probably 
+                die as she sucks out your life essence 
+                due to the immense stress that constantly 
+                plagues her mind. Underneath the facade of 
+                an insurmountable spirit lies a vulnerable 
+                high school girl, one that is severely 
+                burdened by her aspiration and ambition. 
                 Which is not to say that she can't handle her 
                 responsibilities; most of the time Hanekawa 
-                resolves all her problems by herself, 
-                in solitude. After all, 
-
-                she's not one to call out for help.
+                resolves all her problems by herself, in 
+                solitude. After all, she's not one to call 
+                out for help.
             `;
+            // suck your cock and swallow your seed (lol)
             break;
         case "4":
             description.innerHTML = `
@@ -768,10 +767,10 @@ const changeDescription = (curr_card) => {
                 way to pass the time, as she has been rarely
                 stimulated throughout her life and is beginning
                 to feel quite bored with the idea of immortality.
-                It would be the greatest privilege,
-                
-                for a mere human to satisfy her carnal desires. 
+                It would be the greatest privilege, to satisfy 
+                her.
             `;
+            // for a mere human to satisfy her carnal desires.
             break;
         case "5":
             /* He especially adores 
@@ -781,24 +780,24 @@ const changeDescription = (curr_card) => {
             Tsukihi is an innocent soul that should be 
             absolutely defiled and fucked until her mind 
             breaks, but */
-            description.innerHTML = `
-                Tsukihi Araragi, one of the infamous "Fire 
-                Sisters" of Tsuganoki Second Junior High 
-                School, also happens to be a phoenix. She 
-                is frequently assaulted by her perverse and 
-                uncontrollably lustful older brother, but 
-                to describe their relationship as "incestuous" 
-                would be as blasphemous as it would be to 
-                sexualize children (something that Araragi 
-                loves very, very much).
+            description.innerHTML = "E";
+            // description.innerHTML = `
+            //     Tsukihi Araragi, one of the infamous "Fire 
+            //     Sisters" of Tsuganoki Second Junior High 
+            //     School, also happens to be a phoenix. She 
+            //     is frequently assaulted by her perverse and 
+            //     uncontrollably lustful older brother, but 
+            //     to describe their relationship as "incestuous" 
+            //     would be as blasphemous as it would be to 
+            //     sexualize children (something that Araragi 
+            //     loves very, very much).
 
-                Be careful as she has quite the 
-                venomous bite. Her character is unpredicatble 
-                as well, ranging from "kawaii sis" to "pyschotic 
-                yandere", canonically threatening impalation 
-                and torture on multiple occasions throughout 
-                the series.
-            `;
+            //     Be careful as she has quite the venomous bite. 
+            //     Her character ranges from "cute sister" to 
+            //     "pyschotic yandere", canonically threatening 
+            //     impalation and torture on multiple occasions 
+            //     throughout the series.
+            // `;
             break;
         case "6":
             // description.innerHTML = `
@@ -815,6 +814,7 @@ const changeDescription = (curr_card) => {
             //     just to repeat the sex ritual again the 
             //     following day.
             // `;
+            description.innerHTML = "F";
             break;
         case "7":
             description.innerHTML = `
@@ -853,8 +853,8 @@ const changeDescription = (curr_card) => {
             `;
             break;
         case "8":
-            description.innerHTML = `
-                
+            description.innerHTML = `H
+        
             `;
             break;
         case "9":
@@ -862,9 +862,9 @@ const changeDescription = (curr_card) => {
             break;
         case "10":
             description.innerHTML = `
-                A sadistic fool, Ougi is. Yet she is also so, so
-                gosh-darn breedable. Her hips were made for 
-                giving birth :skull:
+                A sadistic fool, Ougi is. Yet she is also so, so, so
+                gosh-darn breedable. Her hips were made for giving 
+                birth :skull:
             `;
     }
     
