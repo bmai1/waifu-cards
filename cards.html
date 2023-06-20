@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang="en" charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="https://cdn.onlinewebfonts.com/svg/img_99055.png">
+        <title>Kawaii Waifu Collecting Simulator</title>
+    </head>
+    <body>
+        <div id="background"></div>
+        <div id="navbar">
+            <audio src="media/bg1.mp3"></audio>
+            <audio src="media/bg2.mp3"></audio>
+            <audio src="media/bg3.mp3"></audio>
+            <audio src="media/bg4.mp3"></audio>
+            <button id="shuffleButton" onclick="shuffle()">Shuffle Deck</button>
+            <button id="muteButton" onclick="toggleMute()">Mute</button>
+            <button onclick="nextSong()">Next Song</button>
+            <button id="roll" onclick="roll()">Roll</button>
+        </div>
+
+        <div id="description-box">
+            <h3 id="name"></h1>
+            <p id="description"></p> 
+        </div>
+        </div>
+        <div id="cards">
+            <div class="big-card card" onclick="zoom(this)" data-index=1></div>
+            <div class="big-card card" onclick="zoom(this)" data-index=2></div>
+            <div class="big-card card" onclick="zoom(this)" data-index=3></div>
+            <div class="big-card card" onclick="zoom(this)" data-index=4></div>
+            <div class="big-card card" onclick="zoom(this)" data-index=5></div>
+            <div class="big-card card" onclick="zoom(this)" data-index=6></div>
+            <div class="big-card card" onclick="zoom(this)" data-index=7></div>
+            <div class="big-card card" onclick="zoom(this)" data-index=8></div>
+            <div class="big-card card" onclick="zoom(this)" data-index=9></div>
+            <div class="big-card card" onclick="zoom(this)" data-index=10></div>
+        </div>
+        <div id="background-overlay"></div>
+        <div id="dim"></div>
+        <div id="vignette"></div>
+        <canvas id="confetti-canvas"></canvas>
+        <!-- <div id="custom-cursor"><img id="cur" src="media/cursor.png"></div>  -->
+	</body>
+    <!-- confetti effect for gacha -->
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.10.1/tsparticles.confetti.bundle.min.js"></script>
+    <script src="clean.js"></script>
+</html>
