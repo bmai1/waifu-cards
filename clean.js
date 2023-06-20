@@ -45,12 +45,6 @@ window.onmousemove = () => {
 }
 
 cards_id.onmouseover = () => {
-    if (flag) {
-        audio[0].volume = 0.2;
-        audio[0].play();
-        audio[0].loop = true;
-        flag = false;
-    }
     // important line to prevent weird behavior
     if (zoomed) { return; }
     if (!played_sfx) {
@@ -77,6 +71,12 @@ cards_id.onmouseout = () => {
 // card click animation
 
 const zoom = (curr_card) => {
+    if (flag) {
+        audio[0].volume = 0.2;
+        audio[0].play();
+        audio[0].loop = true;
+        flag = false;
+    }
     if (zoomed == false) {
         zoomed = true;
         focus = curr_card;
