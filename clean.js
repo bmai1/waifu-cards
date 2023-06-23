@@ -689,13 +689,12 @@ const changeDescription = (curr_card) => {
                 a religious cult leader in her childhood, whom
                 she had hit with a shoe in self-defense which
                 led to her mother's economic downfall. To get 
-                into Hitagi Senjougahara's pants, one must first 
-                fully capture her heart in such a way that both 
-                partners trust each other completely, a bond that 
-                is seemingly magical and above comprehension. 
-                It is a bond of pure emotion and passion rather 
-                than one of logic and reasoning;
-                it is pure love that defines the human condition. 
+                into Hitagi Senjougahara's pants, one must
+                fully capture her heart so that she can trust 
+                you completely, a bond that is exceedingly 
+                difficult to acquire. It is a bond of passion 
+                rather than one of logic and reasoning;
+                it is a pure love that defines the human condition. 
             `;
             break;
         case "2":
@@ -712,7 +711,7 @@ const changeDescription = (curr_card) => {
                 "you really know everything" with "I only know
                 what I know". She rarely takes interest in other
                 people, but she is entirely willing to die for
-                those she whom considers a friend. Her mind truly 
+                those she whom considers friends. Her mind truly 
                 works in mysterious ways, whether it be playful 
                 and teasing in an attempt to start a conversation, 
                 or fully emphathetic towards another person's
